@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+body,html {
+  background-color: rgb(112, 112, 112);
+}
+.carousel-indicators{margin-bottom:-20px!important;}
+.FormDataContainer{ 
+  width:50%;
+  margin:100px auto 60px auto;
+  background-color:#bdbebd;
+  border:1px solid black;
+  border-radius: 20px;
+  padding: 10px}
+  .FormDataContainerin{ 
+  width:90%;
+  margin:20px auto 40px auto;
+  background-color:#e9e9e9;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px}
+.Formtitle{
+  padding-left:15px;
+  font-size:18px;
+  font-weight:bold
+}
+.copyright{ height:auto;
+  margin-top: 110px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 30px;
+  color:yellow;
+  background-color: rgb(112, 112, 112);
+  
+}
+.Candidates{margin:60px auto;background-color:#707070;width:60%;padding: 0;}
+.about{width:70%;margin:80px auto 60px auto;background-color:#bdbebd;height:auto}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .FormDataContainer {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .FormDataContainer {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .FormDataContainer {
+    width: 80%;
+  }
+}
